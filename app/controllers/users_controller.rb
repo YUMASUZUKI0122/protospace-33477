@@ -6,6 +6,7 @@ class UsersController < ApplicationController
     @profile = @user.profile
     @occupation = @user.occupation
     @position = @user.position
+    
   end
 
 end
